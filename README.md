@@ -1,5 +1,4 @@
-This code is made to calculate the overlap between actin and clathrin-coated pits, acquired by super-resolution data. For more information, please refer to: Yang C, Colosi P, Hugelier S, Zabezhinsky D, Lakadamyali M & Svitkina
-T. Actin polymerization promotes invagination of flat clathrin-coated lattices in mammalian cells by pushing at the lattice edges. Nat. Comm. 2022.
+This code is made to calculate the overlap between actin and clathrin-coated pits, acquired by super-resolution data. The demo data included is the data used in the paper.
 
 It was specifically written for our analysis pipeline (as in: the data structure is specific for our pipeline), but can easily be changed to fit your analysis pipeline. 
 The core of the calculations (i.e., the overlap calculation) will be the same for every analysis pipeline, but the way the dat ais ordered may be different depending on your own pipeline.
@@ -24,3 +23,5 @@ To Run:
  The output will be:
   - An Excel file with the entire summary of the output. An explanation of the output can be found in the 'OverlapCalculation.m' file.
   - Two MATLAB figures that will also be saved as .png files in the working directory.
+
+For more information, please refer to: Yang C, Colosi P, Hugelier S, Zabezhinsky D, Lakadamyali M & Svitkina T. Actin polymerization promotes invagination of flat clathrin-coated lattices in mammalian cells by pushing at the lattice edges. Nat. Comm. 2022.
